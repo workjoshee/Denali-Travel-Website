@@ -25,14 +25,8 @@ export default function Hero() {
         transition={{ duration: 0.8, ease: 'easeOut', delay: 0.1 }}
         className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-6 py-8 md:px-12 md:py-10 max-w-[1920px] mx-auto w-full"
       >
-        <div className="flex items-center gap-2.5 text-[17px] md:text-[19px] font-medium tracking-wide">
-          <img
-            src="/logo.jpg"
-            alt=""
-            aria-hidden="true"
-            className="h-9 w-14 shrink-0 rounded-[4px] object-cover ring-1 ring-white/15"
-          />
-          <span>Astralynx</span>
+        <div className="text-[17px] md:text-[19px] font-medium tracking-wide">
+          Astralynx
         </div>
         <div className="hidden md:flex items-center gap-10 text-[13px] md:text-[14px] text-gray-200 font-light">
           <a href="#about-denali" className="hover:text-white transition-colors">Discover</a>
