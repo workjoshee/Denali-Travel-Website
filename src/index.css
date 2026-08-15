@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-display {
+    font-family: 'Bodoni Moda', 'Playfair Display', serif;
+  }
+  .font-stencil {
+    font-family: 'Big Shoulders Display', 'Syne', sans-serif;
+  }
+  .font-editorial-sans {
+    font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base page color (matches the site's original dark background). The fixed
+   cinematic canvas sits above this and below the site content. */
+html,
+body {
+  background-color: #030508;
+}
