@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- dark rounded tile (matches site base) -->
+  <rect width="64" height="64" rx="14" fill="#0A0E14"/>
+  <!-- aurora arc -->
+  <path d="M6 40 Q 20 26 34 34 T 58 26" fill="none" stroke="#2DD4BF" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>
+  <!-- rising sun -->
+  <circle cx="45" cy="26" r="7" fill="#D8784E"/>
+  <!-- back ridge -->
+  <path d="M6 50 L20 34 L30 44 L38 34 L58 50 Z" fill="#1A6482"/>
+  <!-- main peaks -->
+  <path d="M4 54 L22 26 L36 42 L46 30 L60 54 Z" fill="#2DD4BF"/>
+  <!-- snow caps -->
+  <path d="M22 26 L27.5 33 L22 33 Z" fill="#E8ECD8" opacity="0.9"/>
+  <path d="M46 30 L51 36.5 L41 36.5 Z" fill="#E8ECD8" opacity="0.85"/>
+</svg>

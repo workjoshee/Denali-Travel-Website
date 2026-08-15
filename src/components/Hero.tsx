@@ -25,8 +25,15 @@ export default function Hero() {
         transition={{ duration: 0.8, ease: 'easeOut', delay: 0.1 }}
         className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-6 py-8 md:px-12 md:py-10 max-w-[1920px] mx-auto w-full"
       >
-        <div className="text-[17px] md:text-[19px] font-medium tracking-wide">
-          Astralynx
+        <div className="flex items-center gap-2.5 text-[17px] md:text-[19px] font-medium tracking-wide">
+          <svg width="21" height="21" viewBox="0 0 64 64" fill="none" aria-hidden="true" className="shrink-0">
+            <circle cx="45" cy="26" r="7" fill="#D8784E" />
+            <path d="M6 50 L20 34 L30 44 L38 34 L58 50 Z" fill="#1A6482" />
+            <path d="M4 54 L22 26 L36 42 L46 30 L60 54 Z" fill="#2DD4BF" />
+            <path d="M22 26 L27.5 33 L22 33 Z" fill="#E8ECD8" opacity="0.9" />
+            <path d="M46 30 L51 36.5 L41 36.5 Z" fill="#E8ECD8" opacity="0.85" />
+          </svg>
+          <span>Astralynx</span>
         </div>
         <div className="hidden md:flex items-center gap-10 text-[13px] md:text-[14px] text-gray-200 font-light">
           <a href="#about-denali" className="hover:text-white transition-colors">Discover</a>
